@@ -4,9 +4,13 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+LOCAL_PATH := $(call my-dir)
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_RMX2111.mk
+    $(LOCAL_PATH)/twrp_RMX2111.mk
+
+# PRODUCT_MAKEFILES := \
+#    $(LOCAL_DIR)/omni_RMX2111.mk
 
 COMMON_LUNCH_CHOICES := \
     omni_RMX2111-user \
