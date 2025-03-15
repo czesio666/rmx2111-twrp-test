@@ -7,7 +7,7 @@
 LOCAL_PATH := $(call my-dir)
 
 PRODUCT_MAKEFILES := \
-    (LOCAL_DIR)/twrp_RMX2111.mk
+    $(LOCAL_DIR)/twrp_RMX2111.mk
 
 # PRODUCT_MAKEFILES := \
 #    $(LOCAL_DIR)/omni_RMX2111.mk
